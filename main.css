@@ -1,0 +1,48 @@
+.title{
+    color:yellow;
+    /* background-color: crimson; */
+    display: flex;
+    text-align: center;
+    font-size: 2em;
+    justify-content: center;
+    font-family: "Aldrich";
+    border-bottom:5px solid transparent;
+    transition: 1s;
+
+
+}
+.mainpic{
+    display:flex;
+    justify-content: center;
+    border-bottom:5px solid transparent;
+    border-top:5px solid transparent;
+    transition: 1s;
+}
+html{
+    background-color: black;
+}
+.mainpic:hover{
+    flex-grow: 10px;
+    border-bottom: 5px solid red;
+    border-top: 5px solid red;
+    
+}
+.title:hover{
+    letter-spacing: 2em;
+    color:red;
+    /* border-bottom: 5px solid yellow; */
+}
+.pur{
+    color:blue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Aldrich";
+    transition: 1s;
+    border-bottom:5px solid transparent;
+}
+.pur:hover{
+    letter-spacing: 2em;
+    text-decoration:transparent;
+    border-bottom: 5px solid blue;
+}
